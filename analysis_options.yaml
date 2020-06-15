@@ -1,0 +1,11 @@
+extends: package:pedantic/analysis_options.yaml
+
+analyzer:
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+
+linter:
+  rules:
+    prefer_relative_imports: true
+    prefer_const_constructors: true
