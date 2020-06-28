@@ -40,7 +40,7 @@ class _ImageThumbnail extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Navigator.of(context).push(CircleClipRoute<void>(
+        Navigator.of(context).push(CircularClipRoute<void>(
           expandFrom: context,
           transitionDuration: const Duration(seconds: 1),
           builder: (context) => _ImageViewerPage(image: image),

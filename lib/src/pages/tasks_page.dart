@@ -71,7 +71,7 @@ class _TasksPageState extends State<TasksPage>
                         ),
                         onPressed: () => Navigator.push(
                           context,
-                          CircleClipRoute<void>(
+                          CircularClipRoute<void>(
                             expandFrom: context,
                             builder: (_) => _TaskProgressPage(),
                           ),
