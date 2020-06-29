@@ -1,7 +1,6 @@
+import 'package:circular_clip_route/circular_clip_route.dart';
 import 'package:flutter/material.dart';
 import 'package:styled_widget/styled_widget.dart';
-
-import '../widgets/widgets.dart';
 
 class _PageBody extends StatelessWidget {
   const _PageBody({

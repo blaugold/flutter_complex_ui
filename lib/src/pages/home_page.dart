@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../widgets/widgets.dart';
-import 'image_gallery_page.dart';
 import 'tasks_page.dart';
 
 class HomePage extends StatelessWidget {
@@ -34,14 +33,6 @@ class HomePage extends StatelessWidget {
                 onTap: () => Navigator.of(context).push(
                   MaterialPageRoute<void>(
                     builder: (_) => TasksPage(),
-                  ),
-                ),
-              ),
-              ListTile(
-                title: const Text('Image Gallery'),
-                onTap: () => Navigator.of(context).push(
-                  MaterialPageRoute<void>(
-                    builder: (_) => ImageGalleryPage(),
                   ),
                 ),
               ),
